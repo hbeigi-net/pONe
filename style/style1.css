@@ -1,0 +1,45 @@
+.bg-custom-1{
+    background-color:#ffc107 ;
+}
+.bg-custom-2{
+    background-color: #baebdc8a;
+    border-radius: 1rem;
+}
+.bg-custom-3{
+    background-color: #ffc1076b !important;
+}
+.mb-custom{
+    margin-bottom: 5rem;
+}
+.mt-custom{
+    margin-top: 5rem;
+}
+@font-face {
+    font-family: vazir;
+    src: url("../fonts/vazir/Vazir.eot");
+    src: url("../fonts/vazir/Vazir.ttf");
+    src: url("../fonts/vazir/Vazir.woff");
+    src: url("../fonts/vazir/Vazir.woff2");
+}
+@font-face {
+    font-family: mikhak;
+    src: url("../fonts/mikhak/Mikhak-Black.ttf");
+    src: url("../fonts/mikhak/Mikhak-Bold.ttf");
+    src: url("../fonts/mikhak/Mikhak-Light.ttf");
+    src: url("../fonts/mikhak/Mikhak-Medium.ttf");
+    src: url("../fonts/mikhak/Mikhak-Thin.ttf");
+    src: url("../fonts/mikhak/Mikhak-VF.ttf");
+}
+   
+body{
+    font-family: mikhak !important;
+    
+}
+
+#sec_card_img{
+    background:url("../images/sunset-g2c6ce549d_1920.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
